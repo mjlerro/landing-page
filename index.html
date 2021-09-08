@@ -1,0 +1,86 @@
+<style>
+
+  html.dark-mode {
+    filter: invert(100%) hue-rotate(180deg);
+  }
+  .dark-mode-switch {
+    padding-top: 30px;
+  }
+
+
+</style>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Static Landing Page</title>
+
+  </head>
+
+  <body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- your content here... -->
+    <div class="container bg-dark" >
+      <div style="color: white; padding-top: 60px; padding-bottom: 10px; font-size: 50px;">Lerro Landing Page</div>
+    </div>
+
+    <div class="container bg-danger" >
+      <div style="color: white; padding-top: 10px; padding-bottom: 10px; font-size: 20px;">The Greatest Landing Page You Will Ever Find.</div>
+    </div>
+
+    <div class="container bg-light">
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="https://ibb.co/JybmYNG"><img src="https://i.ibb.co/Sd15k2M/linkedinpic.jpg" width="100%" style="padding-top: 50px;" class="img-responsive" alt="Marcus Lerro"></a>
+        </div>
+
+        <div class="col-sm-4">
+          <h3 style="padding-top: 40px;">Benefits</h3>
+          <p style="font-size:1.1vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac ex erat. Fusce tincidunt dictum porta. Aliquam eros ex, vulputate sit amet euismod eu, eleifend at justo. Nullam commodo lacus vitae dolor pellentesque, eget mollis erat pulvinar. Mauris id congue eros. Sed non tincidunt augue. Vivamus sit amet ligula purus. Quisque sit amet enim ante. Nunc eget consectetur neque, sed condimentum urna. Fusce at lacus sed turpis egestas suscipit in eget magna.</p>
+          <p style="font-size:1.1vw;">Donec convallis quam sem, in feugiat diam molestie nec. Ut eu vehicula nulla. Curabitur placerat massa eu nunc dignissim volutpat. Vivamus posuere magna egestas, sodales orci non, tempor lacus. Donec purus mauris, eleifend et neque vel, posuere scelerisque nisi. Vestibulum tempor est at enim vestibulum lacinia. Vivamus dictum nisi id lectus congue, ut porttitor ante molestie. Mauris consequat ante vitae dapibus accumsan. Vestibulum a enim tortor.</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h3 style="padding-top: 40px;">Subscribe to My Newsfeed</h3>
+          <!-- Engagement Form -->
+          <form style="padding-top: 30px;"action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <br>
+            <button type="submit" class="btn-primary">Submit</button>
+          </form>
+
+          <div class="dark-mode-switch">
+            <input id="dark-mode" type="checkbox" onclick="document.documentElement.classList.toggle('dark-mode')"> 
+            <label for="dark-mode">Dark mode</label>
+          </div>
+
+        </div>
+      </div>
+      <div  style="padding-top: 30px;" class="row">
+        <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center">
+          <h3 style="text-align: center;">My Supporters:</h3>
+        </div>
+        <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center">
+          <img width = "100%" class="img-responsive" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/apple_logo_icon_168588.png">
+        </div>
+        <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center">
+          <img width = "100%" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png">
+        </div>
+        <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center">
+          <img width = "100%"class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/2560px-IBM_logo.svg.png">
+        </div>
+
+      </div>
+      
+    </div>
+  </body>
+</html>
